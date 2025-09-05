@@ -10,7 +10,7 @@ Kali (192.168.56.20) ── Host-Only ── Ubuntu (192.168.56.10)
 
 ```mermaid
 graph LR
-  A(Kali 192.168.56.20]) ---|Host-Only| B([Ubuntu 192.168.56.10])
+[Kali 192.168.56.20] ---|Host-Only| B[Ubuntu 192.168.56.10]
 
 📝 Pasos
 Instalación de VMs y red Host-Only en VirtualBox.
