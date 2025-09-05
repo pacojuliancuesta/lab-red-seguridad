@@ -1,0 +1,14 @@
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
+# ISOs o discos virtuales
+*.iso
+*.vdi
+*.vmdk
+*.ova
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
