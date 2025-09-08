@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Archivos de VirtualBox
 *.vdi
 *.vmdk
@@ -21,3 +22,19 @@ Thumbs.db
 # Carpetas temporales
 temp/
 backup/
+=======
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
+# ISOs o discos virtuales
+*.iso
+*.vdi
+*.vmdk
+*.ova
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+>>>>>>> b3c2c197d04ca11053f2e10a250a8a5cd71a0ad9
