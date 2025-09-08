@@ -7,16 +7,6 @@
 
 Este proyecto simula un entorno de red aislado para practicar técnicas de escaneo de seguridad y hardening de servidores, utilizando VirtualBox en Windows 11.
 
-
-
-\## 🖥️ Topología de Red
-
-```mermaid
-
-graph LR
-
-&nbsp; A\[Kali Linux<br/>192.168.56.20] ---|Red Host-Only| B\[Ubuntu Server 24.04.3<br/>192.168.56.10]
-
 \## 📋 Componentes
 
 Sistema Anfitrión: Windows 11
