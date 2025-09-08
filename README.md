@@ -95,8 +95,6 @@ UFW bloqueando tráfico no esencial
 
 ## 📁 Estructura del Proyecto
 
-text
-
 lab-red-seguridad/
 
 ├── diagramas/                 # Diagramas de red y topología
