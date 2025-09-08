@@ -17,7 +17,7 @@ Hipervisor: VirtualBox 7.0+
 
 
 
-Máquina Atacante: Kali Linux 2023.4
+Máquina Atacante: Kali Linux 2025.2
 
 
 
