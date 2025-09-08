@@ -1,13 +1,13 @@
-<<<<<<< HEAD
-\# 🔐 Laboratorio de Redes y Seguridad en VirtualBox
+
+# 🔐 Laboratorio de Redes y Seguridad en VirtualBox
 
 
 
-\## 🎯 Objetivo
+## 🎯 Objetivo
 
 Este proyecto simula un entorno de red aislado para practicar técnicas de escaneo de seguridad y hardening de servidores, utilizando VirtualBox en Windows 11.
 
-\## 📋 Componentes
+## 📋 Componentes
 
 Sistema Anfitrión: Windows 11
 
@@ -25,7 +25,7 @@ Servidor Objetivo: Ubuntu Server 24.04.3 LTS
 
 
 
-\## 🛠️ Herramientas Utilizadas
+## 🛠️ Herramientas Utilizadas
 
 Nmap - Escaneo de red y puertos
 
@@ -47,7 +47,7 @@ OpenSSH - Acceso remoto seguro
 
 
 
-\## 📊 Resultados
+## 📊 Resultados
 
 Antes del Hardening
 
@@ -93,7 +93,7 @@ UFW bloqueando tráfico no esencial
 
 
 
-\## 📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
 text
 
@@ -117,9 +117,9 @@ lab-red-seguridad/
 
 └── .gitignore                 # Archivos ignorados por Git
 
-\## 🚀 Guía de Implementación
+## 🚀 Guía de Implementación
 
-1\. Preparación del Entorno
+1. Preparación del Entorno
 
 Instalar Git for Windows
 
@@ -133,7 +133,7 @@ Crear repositorio en GitHub y clonarlo localmente
 
 
 
-2\. Configuración de VirtualBox
+2. Configuración de VirtualBox
 
 Crear red Host-Only (vboxnet0)
 
@@ -143,7 +143,7 @@ Configurar máquinas virtuales con adaptador Host-Only
 
 
 
-3\. Instalación y Configuración
+3. Instalación y Configuración
 
 Instalar Ubuntu Server 24.04.3 con IP estática 192.168.56.10
 
@@ -157,7 +157,7 @@ Configurar servicios básicos en Ubuntu (SSH, Nginx, UFW)
 
 
 
-4\. Escaneos Iniciales
+4. Escaneos Iniciales
 
 Realizar escaneos Nmap desde Kali
 
@@ -167,7 +167,7 @@ Documentar servicios y puertos abiertos
 
 
 
-5\. Hardening del Servidor
+5. Hardening del Servidor
 
 Cambiar puerto SSH a 2222
 
@@ -185,7 +185,7 @@ Aplicar medidas de seguridad en Nginx
 
 
 
-6\. Escaneos Finales
+6. Escaneos Finales
 
 Realizar escaneos post-hardening
 
@@ -195,58 +195,13 @@ Comparar resultados con línea base
 
 
 
-\## ⚠️ Consideraciones Éticas
+## ⚠️ Consideraciones Éticas
 
 Este laboratorio se ha realizado en un entorno completamente aislado y controlado. Todas las técnicas y herramientas se han utilizado exclusivamente con fines educativos en sistemas de propia propiedad.
 
 
-\## 👨‍💻 Autor
+## 👨‍💻 Autor
 
 Francisco Julián Cuesta - www.linkedin.com/in/franciscojuliáncuesta-bbbb25296
 
 
-
-=======
-# lab-red-seguridad
-Laboratorio de seguridad en redes con VirtualBox (Kali + Ubuntu)
-# 🔐 Laboratorio de Red y Seguridad (VirtualBox)
-## 🎯 Objetivo
-- Simular red interna con Kali (auditor) y Ubuntu (servidor).
-- Medir superficie de ataque antes y después de aplicar hardening.
-
-## 🖥️ Topología
-Kali (192.168.56.20) ── Host-Only ── Ubuntu (192.168.56.10)
-
-## 📝 Pasos
-Instalación de VMs y red Host-Only en VirtualBox.
-
-Configuración inicial de Ubuntu (SSH, Nginx, UFW).
-
-Escaneo inicial con Nmap desde Kali.
-
-Hardening del servidor (UFW, cambio de puerto SSH, fail2ban, servicios mínimos).
-
-Escaneo final y comparación de resultados.
-
-## 📊 Resultados esperados
-
-Antes: puertos 22/tcp y 80/tcp abiertos.
-
-Después: puerto 2222/tcp abierto, 80/tcp cerrado, root login deshabilitado.
-
-## 🛠️ Herramientas
-
-Windows 11 (host)
-
-VirtualBox
-
-Kali Linux
-
-Ubuntu Server
-
-Nmap
-
-UFW
-
-Fail2ban
->>>>>>> b3c2c197d04ca11053f2e10a250a8a5cd71a0ad9
