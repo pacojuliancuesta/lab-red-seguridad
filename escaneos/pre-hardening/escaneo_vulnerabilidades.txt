@@ -1,0 +1,11 @@
+(paco KaliPaco)-[~]
+$ nmap -- script vuln 192.168.56.10
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-09-08 12:51 CEST
+Pre-scan script results:
+I broadcast-avahi-dos:
+Discovered hosts:
+224.0.0.251
+After NULL UDP avahi packet DoS (CVE-2011-1002).
+Hosts are all up (not vulnerable).
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 38.02 seconds

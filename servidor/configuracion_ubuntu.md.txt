@@ -1,0 +1,18 @@
+# Configuración de Ubuntu Server 24.04.3
+
+## Configuración de red
+- IP estática: 192.168.56.10
+- Máscara: 255.255.255.0
+- DNS: 8.8.8.8, 8.8.4.4
+
+## Servicios instalados
+- OpenSSH Server
+- Nginx
+- UFW (Uncomplicated Firewall)
+- Fail2Ban
+
+## Configuración de seguridad
+- Puerto SSH cambiado a 2222
+- Login root deshabilitado
+- UFW configurado para permitir sólo puertos 80 y 2222
+- Fail2Ban configurado para proteger SSH

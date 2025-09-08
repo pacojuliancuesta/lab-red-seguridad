@@ -1,0 +1,23 @@
+# Archivos de VirtualBox
+*.vdi
+*.vmdk
+*.vhd
+*.hdd
+*.vbox
+*.vbox-prev
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.log
+*.swp
+
+# Imágenes ISO
+*.iso
+
+# Carpetas temporales
+temp/
+backup/

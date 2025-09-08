@@ -1,0 +1,11 @@
+# Comandos utilizados en Kali Linux
+
+## Escaneos de red
+- `nmap -sV -sC -O 192.168.56.10` - Escaneo completo
+- `nmap -p- --top-ports 1000 192.168.56.10` - Escaneo de puertos comunes
+- `nmap --script vuln 192.168.56.10` - Escaneo de vulnerabilidades
+
+## Pruebas de conectividad
+- `ping -c 4 192.168.56.10` - Prueba de conectividad básica
+- `curl -I http://192.168.56.10` - Prueba del servicio HTTP
+- `ssh -p 2222 usuario@192.168.56.10` - Conexión SSH al puerto personalizado
