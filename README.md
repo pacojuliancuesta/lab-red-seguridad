@@ -200,6 +200,8 @@ Este laboratorio se ha realizado en un entorno completamente aislado y controlad
 
 ## 👨‍💻 Autor
 
-Francisco Julián Cuesta - www.linkedin.com/in/franciscojuliáncuesta-bbbb25296
+Francisco Julián Cuesta - www.linkedin.com/in/franciscojuliáncuesta-técnico-en-administración-de-sistemas-en-red
+
+
 
 
